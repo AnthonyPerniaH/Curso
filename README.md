@@ -15,7 +15,7 @@
 
 (Si les da error la primera vez, usen git pull origin master --allow-unrelated-histories)
 
-Despues de cada clase, actualizare el repositorio con las cosas que se vieron, solo toca hacer el** pull,** en cada clase.
+Despues de cada clase, actualizare el repositorio con las cosas que se vieron, solo toca hacer el **pull** (-git pull origin master-),  en cada clase.
 
 
 
