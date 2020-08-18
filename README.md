@@ -17,6 +17,28 @@
 
 Despues de cada clase, actualizare el repositorio con las cosas que se vieron, solo toca hacer el **pull** (-git pull origin master-),  en cada clase.
 
+##Importante:
 
+•	Python : https://www.python.org/downloads/
+
+•	Mysql : https://dev.mysql.com/downloads/workbench/
+
+•	PyCharm 
+
+https://www.jetbrains.com/es-es/pycharm/download/#section=windows
+
+Con la versión Community, es gratis, nos sirve para lo que haremos.
+
+•	Visual Studio Code
+
+https://code.visualstudio.com/
+
+•	Atom
+
+https://atom.io/
+
+•	Sublime Text
+
+https://www.sublimetext.com/
 
 Anthony Pernia.
