@@ -20,7 +20,7 @@ public class variable_java {
 
         /////System.out.println("dhsdhshshshsh");
         ///System.out.println(b);
-List<String> listaString = new ArrayList<String>(Arrays.asList("casa","depto")); //corre igual asi no este identado
+        List<String> listaString = new ArrayList<String>(Arrays.asList("casa","depto")); //corre igual asi no este identado
         List<Integer> listaEnteros = new ArrayList<Integer>();
         listaEnteros.add(2);
         //System.out.println(listaString);

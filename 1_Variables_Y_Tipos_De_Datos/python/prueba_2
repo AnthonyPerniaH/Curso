@@ -1,0 +1,82 @@
+
+usuario1 = {'nombre':'anthony',
+            'apellido': 'pernia',
+            'edad':'28'
+}
+
+
+
+usuario2 = {'nombre':'yusmere',
+            'apellido': 'pernia',
+            'edad':'32'
+}
+
+
+usuario3 = {'nombre':'andy',
+            'apellido': 'martinez',
+            'edad':'27'
+}
+
+usuario4 = {'nombre':'yoalbert',
+            'apellido': 'rivero',
+            'edad':'30'
+}
+
+
+usuario5 = {'nombre': input('Ingrese nombre = '),
+            'apellido': input('Ingrese apellido ='),
+            'edad': input('Ingrese edad = '),
+}
+
+
+
+
+
+def registra_usuario(usuario, in_out, hora):
+    usuario['entra_sale'] = in_out
+    usuario['hora'] = hora
+    return usuario
+
+
+lista_de_ingreso = []
+
+lista_de_ingreso.append(registra_usuario(usuario1,'entra', '10:00'))
+lista_de_ingreso.append(registra_usuario(usuario2,'sale', '11:00'))
+lista_de_ingreso.append(registra_usuario(usuario3,'entra', '14:00'))
+lista_de_ingreso.append(registra_usuario(usuario4,'sale', '16:00'))
+lista_de_ingreso.append(registra_usuario(usuario5,'entra', '18:00'))
+
+for user in lista_de_ingreso:
+    print(user['apellido'] )
+    print(user['hora'])
+
+#a = 7
+
+#while a < 10:
+    #print(a)
+    #a = a+1
+
+#print('FINAL')
+
+
+
+#lista = [ 1,2,3,4,88,44,66,23]
+
+#for variable in lista:
+    #print(variable / 200)
+    #print('-------------')
+    #print(variable * 100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
